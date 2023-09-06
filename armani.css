@@ -1,0 +1,308 @@
+body{
+    height:0;
+    background-color: white;
+    overflow-x: hidden;
+    margin:0;
+}
+
+
+.nav-1{
+    background-color: black;
+    height:2.5rem;
+}
+.header{
+    background-color: white;
+    height:35px;
+    display: flex;
+}
+.header1-totalbox{
+    width: 100%;
+}
+.header1{
+    width:20%;
+    display:flex;
+}
+.header1-1{
+    font-family: inherit;
+    font-style: inherit;
+    color: black;
+  text-decoration: none;
+  font-weight: inherit;
+  font-size: 13px;
+  text-decoration: none;
+  display: flex;
+  cursor: pointer;
+  height:50px;
+  padding-top: 10px;
+  padding-left: 35px;
+  
+}
+.header1-1-1{
+    text-decoration:none;
+  color:black;
+  padding-left: 20px;
+}
+.header2{
+    width: 80%;
+    display: flex;
+    justify-content:end;
+    height:27px;
+    padding-right: 30px;
+}
+
+.header2-1{
+    padding-top: 10px;
+  justify-content: space-around;
+  margin-left: 24px;
+}
+.headerB{
+    font-family: armani;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    padding-top: 1px;
+    display: flex;
+    justify-content: center;
+    height: 83px;
+    }
+    
+@font-face {
+    font-family: armani;
+    src: url(BodoniFLF.ttf);
+}
+.armani{
+    font-size: 25px;
+    display: inline-block;
+  font-size: 32px;
+  transform: scale(.8, 1);
+}
+.specialarmani{
+    padding-left: 62px;
+  
+  width: 142px;
+  font-size: 19px;
+  font-family: inherit;
+}
+.headerc{
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+   
+}
+.armaniB{
+    padding-right: 41px;
+  font-size: 15px;
+  font-weight: inherit;
+  padding-left: 55px;
+}
+
+
+.videoA{
+    position: relative;
+    height:449px;
+    background-attachment: fixed;
+}
+
+.image1{
+    position: absolute; 
+    bottom: 0; 
+    color: #f1f1f1;
+  width: 8%;
+  padding-left: 636px;
+  height: 335px;
+  background-attachment: fixed;
+}
+
+
+.textaftervideo{
+    text-decoration: none;
+    color:white
+}
+.image1-1{
+   padding-left: 20px;
+   padding-bottom: 20px;
+}
+.imageA{
+    height: 430px;
+    width:742;
+  
+}
+.imageandtext{
+    display: flex;
+}
+.textA{
+    width: 430px;
+  padding-left: 25px;
+}
+.textA2{
+    width:100px;
+    height: 430px;
+    
+    
+}
+.font2{
+    width: 234px;
+    padding-left: 32px;
+    font-size: 29px;
+    text-align: center;
+    font-family: inherit;
+    font-weight: inherit;
+}
+.armaniC{
+    font-size: 25px;
+    display: inline-block;
+  font-size: 32px;
+  transform: scale(.6, 1);
+  width: 312px;
+  height: 0px;
+}
+.button{
+    border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 17px 67px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 211px;
+  margin-top: 17px;
+  margin-left: 47px;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+    
+}
+.buttonA{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    padding: 13px 60px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 211px;
+    margin-left: 47px;
+    
+}
+.buttonA:hover{
+    background-color: black;
+    color: white;
+    }
+
+    .buttonB{
+  border: 1px solid black;
+  background-color: white;
+  padding: 12px 33px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 205px;
+  margin-left: 47px;
+    }
+    .buttonB:hover{
+        background-color: black;
+        color: white;
+        
+    }
+    
+   .footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: white;
+    color: black; 
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 20px;
+}
+
+h4.footer-content {
+    font-size: 1.2em; 
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+a {
+    color: black; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+.subscribe {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: white;
+	height: 139px;
+	border-radius: 10px;
+	}
+    .form__button:hover{
+        background-color: rgb(66, 66, 63);
+    }
+
+.form {
+	margin-bottom: 25px;
+}
+
+.form__email {
+	padding: 8px 32px;
+    border: none;
+    border-bottom: black;
+	margin-bottom:1px;
+    border-bottom: 2px solid black;
+}
+
+
+
+.form__button {
+	background: black;
+ 
+  width: 147px;
+  height: 39px;
+  border: none;
+  color: white;
+  
+}
+.size-setting{
+    font-size:13px;
+    padding-bottom: 10px;
+}
+
+    
+.finalsection{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+}
+.armani-image{
+    width: 127px;
+    height: 18px;
+  }
+.ea7{
+    width: 110px;
+    height: 39px;
+    
+}
+.icon-full{
+    width: 160px;
+    height: 40px;
+}
